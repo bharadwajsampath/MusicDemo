@@ -1,0 +1,103 @@
+﻿DROP KEYSPACE IF EXISTS musicdemo;
+
+
+CREATE KEYSPACE musicdemo WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
+
+use musicdemo;
+
+CREATE TABLE usercredentials (
+   email text,
+   password text,
+   userid uuid,
+   PRIMARY KEY (email)
+);
+
+
+CREATE TABLE users (
+   userid uuid,
+   fname varchar,
+   lname varchar,
+   age int,
+   email text,
+   createddate timestamp,
+   PRIMARY KEY (userid)
+);
+
+CREATE TABLE artist (
+artistid uuid,
+artistname varchar,
+age int,
+PRIMARY KEY(artistid)
+);
+
+
+
+CREATE TABLE album (
+albumid uuid,
+albumname varchar,
+artistid uuid,
+genre text,
+PRIMARY KEY(albumid,artistid)
+);
+
+
+CREATE TABLE track (
+trackid uuid,
+trackname varchar,
+albumid uuid,
+length decimal,
+location text,
+PRIMARY KEY(trackid,albumid)
+);
+
+CREATE TABLE user_playlist (
+playlistid uuid,
+userid uuid,
+playlistname varchar,
+createdon Timestamp,
+PRIMARY KEY(playlistid,userid)
+) ;
+
+CREATE TABLE playlist_track(
+playlistid uuid,
+trackid uuid,
+trackorder int,
+PRIMARY KEY(playlistid,trackid)
+);
+
+
+CREATE TABLE track_rating(
+trackid uuid,
+counter counter,
+total counter,
+PRIMARY KEY(trackid)
+);
+
+
+CREATE TABLE track_rating_by_user(
+trackid uuid,
+userid uuid,
+rating int,
+PRIMARY KEY(trackid,userid)
+);
+
+
+CREATE TABLE tracks_by_tags(
+trackid uuid,
+tag SET<varchar>,
+PRIMARY KEY(trackid)
+);
+
+
+
+CREATE TABLE comments_by_track (
+   trackid uuid,
+   userid uuid,
+   comment text,
+   createdon timestamp,
+   PRIMARY KEY (trackid, userid)
+) ;
+
+
+CREATE INDEX on users (email);
+

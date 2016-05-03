@@ -1,0 +1,167 @@
+﻿//UserCredentials table
+
+INSERT INTO usercredentials(email,password,userid) VALUES ('ushanthisuguna2@gmail.com','Galileo@1',e6bff560-9653-11e5-ba49-a7e526a4beb5);
+INSERT INTO usercredentials(email,password,userid) VALUES ('george@gmail.com','Galileo1',b2b2f940-9589-11e5-a310-5378b5df90b5);
+INSERT INTO usercredentials(email,password,userid) VALUES ('ushanthisuguna@gmail.com','Galileo1',93664740-9589-11e5-a310-5378b5df90b5);
+INSERT INTO usercredentials(email,password,userid) VALUES ('demouser@gmail.com','Galileo1',c1156090-9589-11e5-a310-5378b5df90b5);
+INSERT INTO usercredentials(email,password,userid) VALUES ('Demo@user2.com','Galileo@1',3bd56be0-962f-11e5-ba49-a7e526a4beb5);
+
+
+//user table
+
+
+INSERT INTO users(userid,age,createddate,email,fname,lname) VALUES (e6bff560-9653-11e5-ba49-a7e526a4beb5,23,1448772280246,'ushanthisuguna2@gmail.com','Shanthi','Upp');
+INSERT INTO users(userid,age,createddate,email,fname,lname) VALUES (b2b2f940-9589-11e5-a310-5378b5df90b5,23,1448688113133,'ushanthisuguna@gmail.com','shanthi','uppalapati');
+INSERT INTO users(userid,age,createddate,email,fname,lname) VALUES (93664740-9589-11e5-a310-5378b5df90b5,40,1448688221673,'george@gmail.com','george','feuerlicht');
+INSERT INTO users(userid,age,createddate,email,fname,lname) VALUES (3bd56be0-962f-11e5-ba49-a7e526a4beb5,12,1448756531614,'Demo@user2.com','Demo','user');
+INSERT INTO users(userid,age,createddate,email,fname,lname) VALUES (c1156090-9589-11e5-a310-5378b5df90b5,10,1448688273793,'demouser@gmail.com','demo','user');
+
+
+//artist table
+
+INSERT INTO artist(artistid,age,artistname) VALUES (f9d2d003-9590-11e5-ba49-a7e526a4beb5,40,'Ricky Martin');
+INSERT INTO artist(artistid,age,artistname) VALUES (f3866a93-9590-11e5-ba49-a7e526a4beb5,26,'Taylor Swift');
+INSERT INTO artist(artistid,age,artistname) VALUES (fb9148e3-9590-11e5-ba49-a7e526a4beb5,45,'Eminem');
+INSERT INTO artist(artistid,age,artistname) VALUES (fe58a643-9590-11e5-ba49-a7e526a4beb5,50,'Metallica');
+INSERT INTO artist(artistid,age,artistname) VALUES (02035ec3-9591-11e5-ba49-a7e526a4beb5,32,'Bruno Mars');
+INSERT INTO artist(artistid,age,artistname) VALUES (f6e09213-9590-11e5-ba49-a7e526a4beb5,36,'Rihanna');
+INSERT INTO artist(artistid,age,artistname) VALUES (f8597673-9590-11e5-ba49-a7e526a4beb5,24,'Justin Beiber');
+INSERT INTO artist(artistid,age,artistname) VALUES (005ab7d3-9591-11e5-ba49-a7e526a4beb5,30,'Ed Sheeran');
+INSERT INTO artist(artistid,age,artistname) VALUES (f55efb23-9590-11e5-ba49-a7e526a4beb5,26,'Salena Gomez');
+
+
+
+
+//artist_album
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (27517893-9593-11e5-ba49-a7e526a4beb5,f8597673-9590-11e5-ba49-a7e526a4beb5,'Under the Mistletoe','hip-hop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,f3866a93-9590-11e5-ba49-a7e526a4beb5,'1989','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (c3f01353-9593-11e5-ba49-a7e526a4beb5,02035ec3-9591-11e5-ba49-a7e526a4beb5,'Unorthodox jukebox','hip-hop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (65502333-9593-11e5-ba49-a7e526a4beb5,fb9148e3-9590-11e5-ba49-a7e526a4beb5,'Recovery','rap');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (ad3602b3-9592-11e5-ba49-a7e526a4beb5,f55efb23-9590-11e5-ba49-a7e526a4beb5,'Slow Down','latin pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (e596a5c3-9591-11e5-ba49-a7e526a4beb5,f3866a93-9590-11e5-ba49-a7e526a4beb5,'Red','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (25d75bb3-9593-11e5-ba49-a7e526a4beb5,f8597673-9590-11e5-ba49-a7e526a4beb5,'Believe','dance');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (7e77a6d3-9593-11e5-ba49-a7e526a4beb5,fe58a643-9590-11e5-ba49-a7e526a4beb5,'Master of Puppets','rock');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (e3a98653-9592-11e5-ba49-a7e526a4beb5,f6e09213-9590-11e5-ba49-a7e526a4beb5,'Rated R','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (28c5a203-9593-11e5-ba49-a7e526a4beb5,f8597673-9590-11e5-ba49-a7e526a4beb5,'Never say never','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,f6e09213-9590-11e5-ba49-a7e526a4beb5,'Loud','dance');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (a9cee2e3-9592-11e5-ba49-a7e526a4beb5,f55efb23-9590-11e5-ba49-a7e526a4beb5,'Revival','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (a9343413-9593-11e5-ba49-a7e526a4beb5,005ab7d3-9591-11e5-ba49-a7e526a4beb5,'Want Some?','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (ec7e39c3-9591-11e5-ba49-a7e526a4beb5,f3866a93-9590-11e5-ba49-a7e526a4beb5,'Speak Now','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (514ab5d3-9593-11e5-ba49-a7e526a4beb5,f9d2d003-9590-11e5-ba49-a7e526a4beb5,'Vuelve','latin');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (e25540f3-9592-11e5-ba49-a7e526a4beb5,f6e09213-9590-11e5-ba49-a7e526a4beb5,'Unapologetic','pop');
+INSERT INTO album(albumid,artistid,albumname,genre) VALUES (abb492d3-9592-11e5-ba49-a7e526a4beb5,f55efb23-9590-11e5-ba49-a7e526a4beb5,'For you','teen pop');
+
+//track table
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (91247a53-9599-11e5-ba49-a7e526a4beb5,a9cee2e3-9592-11e5-ba49-a7e526a4beb5,4,'/track/a9cee2e3-9592-11e5-ba49-a7e526a4beb5/1','Revival');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9487a9e3-9596-11e5-ba49-a7e526a4beb5,c3f01353-9593-11e5-ba49-a7e526a4beb5,4,'/track/c3f01353-9593-11e5-ba49-a7e526a4beb5/3','Gorilla');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (ed78deb3-9597-11e5-ba49-a7e526a4beb5,25d75bb3-9593-11e5-ba49-a7e526a4beb5,4,'/track/25d75bb3-9593-11e5-ba49-a7e526a4beb5/1','All around the world');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (91908d23-959a-11e5-ba49-a7e526a4beb5,514ab5d3-9593-11e5-ba49-a7e526a4beb5,3,'/track/514ab5d3-9593-11e5-ba49-a7e526a4beb5/3','Lola,lola');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (91b15863-9596-11e5-ba49-a7e526a4beb5,c3f01353-9593-11e5-ba49-a7e526a4beb5,4,'/track/c3f01353-9593-11e5-ba49-a7e526a4beb5/2','Locked out of Heaven');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (4a3a7c73-9599-11e5-ba49-a7e526a4beb5,e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e0bcc6a3-9592-11e5-ba49-a7e526a4beb5/5','Only Girl');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (963ec863-9599-11e5-ba49-a7e526a4beb5,a9cee2e3-9592-11e5-ba49-a7e526a4beb5,4,'/track/a9cee2e3-9592-11e5-ba49-a7e526a4beb5/3','Hands to myself');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (fa6017b3-9597-11e5-ba49-a7e526a4beb5,25d75bb3-9593-11e5-ba49-a7e526a4beb5,4,'/track/25d75bb3-9593-11e5-ba49-a7e526a4beb5/5','Take you');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (33379ba3-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/3','Love you like a love song');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9434c793-9599-11e5-ba49-a7e526a4beb5,a9cee2e3-9592-11e5-ba49-a7e526a4beb5,3,'/track/a9cee2e3-9592-11e5-ba49-a7e526a4beb5/2','Kill em with kindness');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (eb9d7d13-9599-11e5-ba49-a7e526a4beb5,a9343413-9593-11e5-ba49-a7e526a4beb5,5,'/track/a9343413-9593-11e5-ba49-a7e526a4beb5/2','Photograph');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (93aa6c73-959a-11e5-ba49-a7e526a4beb5,514ab5d3-9593-11e5-ba49-a7e526a4beb5,4,'/track/514ab5d3-9593-11e5-ba49-a7e526a4beb5/4','Casi un bolero');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a6c77d03-9597-11e5-ba49-a7e526a4beb5,e596a5c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/e596a5c3-9591-11e5-ba49-a7e526a4beb5/4','I knew you were trouble');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (aed04a63-9595-11e5-ba49-a7e526a4beb5,27517893-9593-11e5-ba49-a7e526a4beb5,90,'/track/27517893-9593-11e5-ba49-a7e526a4beb5/4','Christmas Eve');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9e230153-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,3,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/4','Stupid in Love');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (8af0d793-959a-11e5-ba49-a7e526a4beb5,514ab5d3-9593-11e5-ba49-a7e526a4beb5,4,'/track/514ab5d3-9593-11e5-ba49-a7e526a4beb5/1','Po arriba por abajo');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a68ea4a3-9595-11e5-ba49-a7e526a4beb5,27517893-9593-11e5-ba49-a7e526a4beb5,90,'/track/27517893-9593-11e5-ba49-a7e526a4beb5/1','Only Thing I Ever Get for Christmas');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9e07a693-9597-11e5-ba49-a7e526a4beb5,e596a5c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/e596a5c3-9591-11e5-ba49-a7e526a4beb5/1','State of Grace');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (5897c593-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/4','Like a champion');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3057d443-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/2','Come and Get it');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (5bd3ddc3-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/5','Come and get it');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9ba249e3-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,4,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/3','Hard');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a9ab6313-9597-11e5-ba49-a7e526a4beb5,e596a5c3-9591-11e5-ba49-a7e526a4beb5,6,'/track/e596a5c3-9591-11e5-ba49-a7e526a4beb5/5','All too well');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f8ecce13-9596-11e5-ba49-a7e526a4beb5,65502333-9593-11e5-ba49-a7e526a4beb5,4,'/track/65502333-9593-11e5-ba49-a7e526a4beb5/3','Talking to myself');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (35545693-959a-11e5-ba49-a7e526a4beb5,ec7e39c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/ec7e39c3-9591-11e5-ba49-a7e526a4beb5/2','Sparks Fly');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (356acf53-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/4','Tell me something I dont know');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (dcf082c3-959a-11e5-ba49-a7e526a4beb5,e25540f3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e25540f3-9592-11e5-ba49-a7e526a4beb5/4','Pour it up');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a99072f3-9595-11e5-ba49-a7e526a4beb5,27517893-9593-11e5-ba49-a7e526a4beb5,90,'/track/27517893-9593-11e5-ba49-a7e526a4beb5/2','Mistletoe');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3cf7e463-9596-11e5-ba49-a7e526a4beb5,d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,5,'/track/d2f3fcb0-9591-11e5-ba49-a7e526a4beb5/2','Blank space');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (ff4ca993-9598-11e5-ba49-a7e526a4beb5,28c5a203-9593-11e5-ba49-a7e526a4beb5,3,'/track/28c5a203-9593-11e5-ba49-a7e526a4beb5/2','Favorite girl');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (ee1ea9b3-9599-11e5-ba49-a7e526a4beb5,a9343413-9593-11e5-ba49-a7e526a4beb5,3,'/track/a9343413-9593-11e5-ba49-a7e526a4beb5/3','Dont');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (d71c3383-959a-11e5-ba49-a7e526a4beb5,e25540f3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e25540f3-9592-11e5-ba49-a7e526a4beb5/2','Diamonds');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (082fe683-9599-11e5-ba49-a7e526a4beb5,28c5a203-9593-11e5-ba49-a7e526a4beb5,4,'/track/28c5a203-9593-11e5-ba49-a7e526a4beb5/5','One less lonely girl');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3e26e723-9599-11e5-ba49-a7e526a4beb5,e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e0bcc6a3-9592-11e5-ba49-a7e526a4beb5/1','S & M');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (060e3f03-9599-11e5-ba49-a7e526a4beb5,28c5a203-9593-11e5-ba49-a7e526a4beb5,5,'/track/28c5a203-9593-11e5-ba49-a7e526a4beb5/4','Bigger');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a3c846c3-9597-11e5-ba49-a7e526a4beb5,e596a5c3-9591-11e5-ba49-a7e526a4beb5,3,'/track/e596a5c3-9591-11e5-ba49-a7e526a4beb5/3','Tracherous');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (df173353-959a-11e5-ba49-a7e526a4beb5,e25540f3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e25540f3-9592-11e5-ba49-a7e526a4beb5/5','Loveeee song');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (98eb71d3-9599-11e5-ba49-a7e526a4beb5,a9cee2e3-9592-11e5-ba49-a7e526a4beb5,5,'/track/a9cee2e3-9592-11e5-ba49-a7e526a4beb5/4','Same of old Love');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (efe0b6f3-9597-11e5-ba49-a7e526a4beb5,25d75bb3-9593-11e5-ba49-a7e526a4beb5,4,'/track/25d75bb3-9593-11e5-ba49-a7e526a4beb5/2','Boyfriend');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3ae449d3-959a-11e5-ba49-a7e526a4beb5,ec7e39c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/ec7e39c3-9591-11e5-ba49-a7e526a4beb5/4','Speak Now');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3d699523-959a-11e5-ba49-a7e526a4beb5,ec7e39c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/ec7e39c3-9591-11e5-ba49-a7e526a4beb5/5','Dear John');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (b1947373-9595-11e5-ba49-a7e526a4beb5,27517893-9593-11e5-ba49-a7e526a4beb5,90,'/track/27517893-9593-11e5-ba49-a7e526a4beb5/5','All I Want Is You');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3f385e83-9596-11e5-ba49-a7e526a4beb5,d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,3,'/track/d2f3fcb0-9591-11e5-ba49-a7e526a4beb5/3','Style');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3fac1d03-9598-11e5-ba49-a7e526a4beb5,7e77a6d3-9593-11e5-ba49-a7e526a4beb5,6,'/track/7e77a6d3-9593-11e5-ba49-a7e526a4beb5/2','Master of puppets');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3a890743-9596-11e5-ba49-a7e526a4beb5,d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,4,'/track/d2f3fcb0-9591-11e5-ba49-a7e526a4beb5/1','Welcome to New York');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f2d6da93-9599-11e5-ba49-a7e526a4beb5,a9343413-9593-11e5-ba49-a7e526a4beb5,4,'/track/a9343413-9593-11e5-ba49-a7e526a4beb5/5','Sing');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f3438673-9596-11e5-ba49-a7e526a4beb5,65502333-9593-11e5-ba49-a7e526a4beb5,4,'/track/65502333-9593-11e5-ba49-a7e526a4beb5/1','Cold wind blows');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (32abf2e3-959a-11e5-ba49-a7e526a4beb5,ec7e39c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/ec7e39c3-9591-11e5-ba49-a7e526a4beb5/1','Mine');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (500bf773-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/1','Birthday');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (41447ad3-9599-11e5-ba49-a7e526a4beb5,e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e0bcc6a3-9592-11e5-ba49-a7e526a4beb5/2','Whats my trackname');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (42fa4883-9596-11e5-ba49-a7e526a4beb5,d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,4,'/track/d2f3fcb0-9591-11e5-ba49-a7e526a4beb5/4','Out of the woods');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f7aa6d93-9597-11e5-ba49-a7e526a4beb5,25d75bb3-9593-11e5-ba49-a7e526a4beb5,4,'/track/25d75bb3-9593-11e5-ba49-a7e526a4beb5/4','Catching Feelings');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (fb88d5b3-9596-11e5-ba49-a7e526a4beb5,65502333-9593-11e5-ba49-a7e526a4beb5,5,'/track/65502333-9593-11e5-ba49-a7e526a4beb5/4','Wont back down');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (52b25f53-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/2','Slow Down');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (5ead3c83-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/6','Save the day');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3aa21b43-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/6','My Dilemma 2.0');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (95b25c53-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,4,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/1','Mad House');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (45c77243-9596-11e5-ba49-a7e526a4beb5,d2f3fcb0-9591-11e5-ba49-a7e526a4beb5,5,'/track/d2f3fcb0-9591-11e5-ba49-a7e526a4beb5/5','Shake it off');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (98eee9b3-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,5,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/2','Wait your turn');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (fdd780a3-9596-11e5-ba49-a7e526a4beb5,65502333-9593-11e5-ba49-a7e526a4beb5,7,'/track/65502333-9593-11e5-ba49-a7e526a4beb5/5','W.T.P');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f0823c33-9599-11e5-ba49-a7e526a4beb5,a9343413-9593-11e5-ba49-a7e526a4beb5,3,'/track/a9343413-9593-11e5-ba49-a7e526a4beb5/4','I see fire');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (46b3e333-9598-11e5-ba49-a7e526a4beb5,7e77a6d3-9593-11e5-ba49-a7e526a4beb5,5,'/track/7e77a6d3-9593-11e5-ba49-a7e526a4beb5/5','Welcome Home');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9b273863-9596-11e5-ba49-a7e526a4beb5,c3f01353-9593-11e5-ba49-a7e526a4beb5,4,'/track/c3f01353-9593-11e5-ba49-a7e526a4beb5/5','Moonshine');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (44341623-9598-11e5-ba49-a7e526a4beb5,7e77a6d3-9593-11e5-ba49-a7e526a4beb5,5,'/track/7e77a6d3-9593-11e5-ba49-a7e526a4beb5/4','The thing that should not be');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (fd23af13-9598-11e5-ba49-a7e526a4beb5,28c5a203-9593-11e5-ba49-a7e526a4beb5,4,'/track/28c5a203-9593-11e5-ba49-a7e526a4beb5/1','One Time');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (da1db3b3-959a-11e5-ba49-a7e526a4beb5,e25540f3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e25540f3-9592-11e5-ba49-a7e526a4beb5/3','Numb');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (3d346643-9598-11e5-ba49-a7e526a4beb5,7e77a6d3-9593-11e5-ba49-a7e526a4beb5,5,'/track/7e77a6d3-9593-11e5-ba49-a7e526a4beb5/1','Battery');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (43cbe903-9599-11e5-ba49-a7e526a4beb5,e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e0bcc6a3-9592-11e5-ba49-a7e526a4beb5/3','Cheers');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (8e9ffce3-959a-11e5-ba49-a7e526a4beb5,514ab5d3-9593-11e5-ba49-a7e526a4beb5,5,'/track/514ab5d3-9593-11e5-ba49-a7e526a4beb5/2','Vuelve');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (37a507e3-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/5','Who says');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (d4fef8d3-959a-11e5-ba49-a7e526a4beb5,e25540f3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e25540f3-9592-11e5-ba49-a7e526a4beb5/1','Fresh off the runway');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (41e76703-9598-11e5-ba49-a7e526a4beb5,7e77a6d3-9593-11e5-ba49-a7e526a4beb5,3,'/track/7e77a6d3-9593-11e5-ba49-a7e526a4beb5/3','Disposable Heroes');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (385ed773-959a-11e5-ba49-a7e526a4beb5,ec7e39c3-9591-11e5-ba49-a7e526a4beb5,4,'/track/ec7e39c3-9591-11e5-ba49-a7e526a4beb5/3','Back to December');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (e9a04d83-9599-11e5-ba49-a7e526a4beb5,a9343413-9593-11e5-ba49-a7e526a4beb5,4,'/track/a9343413-9593-11e5-ba49-a7e526a4beb5/1','Thinking out Loud');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (8e817533-9596-11e5-ba49-a7e526a4beb5,c3f01353-9593-11e5-ba49-a7e526a4beb5,4,'/track/c3f01353-9593-11e5-ba49-a7e526a4beb5/1','Young Girls');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f625e5e3-9596-11e5-ba49-a7e526a4beb5,65502333-9593-11e5-ba49-a7e526a4beb5,3,'/track/65502333-9593-11e5-ba49-a7e526a4beb5/2','On Fire');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (2de65f13-959b-11e5-ba49-a7e526a4beb5,abb492d3-9592-11e5-ba49-a7e526a4beb5,4,'/track/abb492d3-9592-11e5-ba49-a7e526a4beb5/1','The heart wants what it wants');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a1c79f53-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,5,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/5','Rockstar 101');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (47ad41e3-9599-11e5-ba49-a7e526a4beb5,e0bcc6a3-9592-11e5-ba49-a7e526a4beb5,4,'/track/e0bcc6a3-9592-11e5-ba49-a7e526a4beb5/4','Fading');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a4278853-9598-11e5-ba49-a7e526a4beb5,e3a98653-9592-11e5-ba49-a7e526a4beb5,6,'/track/e3a98653-9592-11e5-ba49-a7e526a4beb5/6','Rude boy');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (036bf5d3-9599-11e5-ba49-a7e526a4beb5,28c5a203-9593-11e5-ba49-a7e526a4beb5,4,'/track/28c5a203-9593-11e5-ba49-a7e526a4beb5/3','Down to Earth');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (971a1493-9596-11e5-ba49-a7e526a4beb5,c3f01353-9593-11e5-ba49-a7e526a4beb5,4,'/track/c3f01353-9593-11e5-ba49-a7e526a4beb5/4','Trasure');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (55881493-9597-11e5-ba49-a7e526a4beb5,ad3602b3-9592-11e5-ba49-a7e526a4beb5,4,'/track/ad3602b3-9592-11e5-ba49-a7e526a4beb5/3','Stars dance');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (96253073-959a-11e5-ba49-a7e526a4beb5,514ab5d3-9593-11e5-ba49-a7e526a4beb5,5,'/track/514ab5d3-9593-11e5-ba49-a7e526a4beb5/5','Corazonado');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (9bf57d83-9599-11e5-ba49-a7e526a4beb5,a9cee2e3-9592-11e5-ba49-a7e526a4beb5,4,'/track/a9cee2e3-9592-11e5-ba49-a7e526a4beb5/5','Sober');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (f4db4803-9597-11e5-ba49-a7e526a4beb5,25d75bb3-9593-11e5-ba49-a7e526a4beb5,4,'/track/25d75bb3-9593-11e5-ba49-a7e526a4beb5/3','As long as you love me');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (ac687223-9595-11e5-ba49-a7e526a4beb5,27517893-9593-11e5-ba49-a7e526a4beb5,90,'/track/27517893-9593-11e5-ba49-a7e526a4beb5/3','Fa La La');
+INSERT INTO track(trackid,albumid,length,location,trackname) VALUES (a0dce6a3-9597-11e5-ba49-a7e526a4beb5,e596a5c3-9591-11e5-ba49-a7e526a4beb5,5,'/track/e596a5c3-9591-11e5-ba49-a7e526a4beb5/2','Red');
+
+
+
+//comments by track
+
+INSERT INTO comments_by_track(trackid,userid,comment,createdon) VALUES (33379ba3-959b-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,'Not bad',1448770830814);
+INSERT INTO comments_by_track(trackid,userid,comment,createdon) VALUES (aed04a63-9595-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,'Nice song',1448768706692);
+INSERT INTO comments_by_track(trackid,userid,comment,createdon) VALUES (3057d443-959b-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,'very nice song',1448772096109);
+INSERT INTO comments_by_track(trackid,userid,comment,createdon) VALUES (3057d443-959b-11e5-ba49-a7e526a4beb5,e6bff560-9653-11e5-ba49-a7e526a4beb5,'very bad song',1448772379729);
+
+
+//user playlist
+
+INSERT INTO playlist_track(playlistid,trackid,trackorder) VALUES (0f9bd130-9653-11e5-ba49-a7e526a4beb5,3057d443-959b-11e5-ba49-a7e526a4beb5,0);
+INSERT INTO playlist_track(playlistid,trackid,trackorder) VALUES (494b5050-962f-11e5-ba49-a7e526a4beb5,aed04a63-9595-11e5-ba49-a7e526a4beb5,0);
+INSERT INTO playlist_track(playlistid,trackid,trackorder) VALUES (494b5050-962f-11e5-ba49-a7e526a4beb5,33379ba3-959b-11e5-ba49-a7e526a4beb5,0);
+INSERT INTO playlist_track(playlistid,trackid,trackorder) VALUES (0429b690-9654-11e5-ba49-a7e526a4beb5,3057d443-959b-11e5-ba49-a7e526a4beb5,0);
+
+
+//trackratingbyuser
+
+INSERT INTO track_rating_by_user(trackid,userid,rating) VALUES (33379ba3-959b-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,4);
+INSERT INTO track_rating_by_user(trackid,userid,rating) VALUES (aed04a63-9595-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,5);
+INSERT INTO track_rating_by_user(trackid,userid,rating) VALUES (3057d443-959b-11e5-ba49-a7e526a4beb5,3bd56be0-962f-11e5-ba49-a7e526a4beb5,5);
+INSERT INTO track_rating_by_user(trackid,userid,rating) VALUES (3057d443-959b-11e5-ba49-a7e526a4beb5,e6bff560-9653-11e5-ba49-a7e526a4beb5,2);

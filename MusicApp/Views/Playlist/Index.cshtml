@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MusicApp.Models.UserPlaylist>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.playlistname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.createdon)
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.playlistname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createdon)
+        </td>
+       
+        <td>
+            @Html.ActionLink("View Tracks", "Tracks", new {  id=item.playlistid }) |
+           
+        </td>
+    </tr>
+}
+
+</table>
